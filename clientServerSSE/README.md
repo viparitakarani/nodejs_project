@@ -1,5 +1,5 @@
 # Firebase Node JS project
-this project whould try to implement the SSE client server SSE using nodejs and C++ 
+this project  tries to implement the SSE client and server  using nodejs and C++ 
 
 
 # SSE Server
@@ -12,27 +12,31 @@ then login to firebase
 
 $firebase login
 
-Login to browser or Already logged in as [email] if already login
+Login to browser
 
 
 ## Init project with firebase project for the first time project's created
 
 $firebase init functions
 
-- Select existing project, which already been created.
-- select javascript, for this project in project set up then user ESLint
+- Select existing project, which's already been created in firebase.
+- select javascript, for this project in project set up,and then use ESLint
 - install dependecy with npmm, by chosing y, the project folder [server/functions] will be generated and firebase.json will be created in project folder[server/firebase.json].
 
-go to  functions folder then edit index.js as needed or use another file name  like server.js then edit the main tag in package.json  
+go to  functions folder then edit index.js as needed, 
+or use another file name  like server.js then edit the main tag in package.json  
 
 $cd functions
 
-[start coding and fun]
+[start coding and have fun]
 
 add required dependency 
+
 $npm i express cors
 
 this will add also the dependencies in package.json
+
+
 
 ## Test the project in local browser
 
