@@ -1,5 +1,8 @@
 # Firebase Node JS project
-this project  tries to implement the SSE client and server  using nodejs and C++ 
+This project  tries to implement the SSE client and server  using nodejs and C++ 
+
+Based on: [alligator.io](https://alligator.io/nodejs/server-sent-events-build-realtime-app/)
+
 
 
 # SSE Server
@@ -43,16 +46,18 @@ this will add also the dependencies in package.json
 $firebase emulators:start
 
 
-- [Test the apps by accessing at local browser](http://localhost:3000/sendevent)
+- Test the apps by accessing at local browser  (http://localhost:3000/sendevent)
 
 
-## deploy the poject to cloud function
+## Deploy the poject to cloud function
 
 $ firebase deploy --only functions
 
 
-## Test the apps 
-test the publisher using below url to publish an event, and use client project to cek the result
-- [Test the apps by accessing](https://us-central1-the-sinoman.cloudfunctions.net/app/sendevent)
+## Test the apps
+
+Test the publisher using below url to publish an event, and use client project to cek the result
+
+- Test the apps by accessing (https://us-central1-the-sinoman.cloudfunctions.net/app/sendevent)
 
 
