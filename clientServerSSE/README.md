@@ -58,7 +58,7 @@ $ firebase deploy --only functions
 
 Test the publisher using below url to publish an event, and use client project to cek the result
 
-- Test the apps by accessing (https://us-central1-the-sinoman.cloudfunctions.net/app/sendevent)
+- Test the apps by accessing (https://us-central1-[your-project-name].cloudfunctions.net/app/sendevent)
 
 
 # SSE Client
