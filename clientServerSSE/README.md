@@ -71,11 +71,11 @@ run the server in local emulator
 
 $firebase emulators:start
 
-# Run the SSE client listener 
+## Run the SSE client listener 
 
 $./server/runcurlclientlistener.sh
 
-# Run the SSE client publisher 
+## Run the SSE client publisher 
 
 $./server/runcurlclientpublisher.sh
 
