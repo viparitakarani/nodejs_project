@@ -1,5 +1,5 @@
 # Firebase Node JS project
-This project  tries to implement the SSE client and server  using nodejs and C++ 
+This project  tries to implement the SSE client and server  using nodejs
 
 Based on: [alligator.io](https://alligator.io/nodejs/server-sent-events-build-realtime-app/)
 
