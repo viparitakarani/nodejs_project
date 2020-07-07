@@ -67,15 +67,15 @@ To test the end to End scenario we use 2 file, as the listerner and as the publi
 
 ## Run the SSE NodeJs Server 
 
-run the server in local emulator
+Run the server in local emulator, go to functions folder
 
 $firebase emulators:start
 
 ## Run the SSE client listener 
 
-$./server/runcurlclientlistener.sh
+$./client/runcurlclientlistener.sh
 
 ## Run the SSE client publisher 
 
-$./server/runcurlclientpublisher.sh
+$./client/runcurlclientpublisher.sh
 
