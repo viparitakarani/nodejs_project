@@ -61,3 +61,21 @@ Test the publisher using below url to publish an event, and use client project t
 - Test the apps by accessing (https://us-central1-the-sinoman.cloudfunctions.net/app/sendevent)
 
 
+# SSE Client
+
+To test the end to End scenario we use 2 file, as the listerner and as the publishser 
+
+## Run the SSE NodeJs Server 
+
+run the server in local emulator
+
+$firebase emulators:start
+
+# Run the SSE client listener 
+
+$./server/runcurlclientlistener.sh
+
+# Run the SSE client publisher 
+
+$./server/runcurlclientpublisher.sh
+

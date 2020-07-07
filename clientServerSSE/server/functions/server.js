@@ -93,7 +93,7 @@ app.get('/sendevent', (request, respond) => {
 //setInterval(sendStreamToAllClients, WAITTIMER);
 
 // Start server, For deploy to firebase  comment this line before deployment 
-//app.listen(port, () => console.log(new Date()+`|SSE Server  listening on port ${port}`));
+app.listen(port, () => console.log(new Date()+`|SSE Server  listening on port ${port}`));
 
 
 // Expose Express API as a single Cloud Function:

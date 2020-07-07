@@ -13,8 +13,8 @@
     "node": "10"
   },
 
-  "main": "server.js", //this  line is added manually to change the index.js file to somthing else
-
+  "main": "server.js", 
+  
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
